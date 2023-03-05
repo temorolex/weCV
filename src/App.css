@@ -1,0 +1,271 @@
+.App {
+  text-align: center;
+}
+
+.container1{
+  background-color: rgb(2, 33, 61);
+    padding-top: 32px;
+    padding-bottom: 32px;
+    width: 100%;
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* Nav Styles */
+
+
+
+nav a {
+  margin-right: 10px;
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+}
+
+/* Home Title Styles */
+
+.homeTitle {
+  margin: 18px 30px;
+  font-size: 30px;
+  line-height: 1;
+}
+
+/* Signup styles */
+
+
+.mainContainer {
+  width: 100%;
+  max-width: 776px;
+  margin: 0 auto;
+  padding: 70px 0;
+}
+
+.output {
+  margin: 60px 0 0 0;
+  padding: 30px;
+  width: 100%;
+  min-height: 500px;
+  background:  rgb(239, 247, 254);
+  border-radius: 12px;
+  box-shadow: 0px 3px 12px rgb(255, 215, 222);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Step Indicator Styles */
+
+.stepIndicator {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.step{
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+}
+
+.stepIndicator hr {
+  width: 160px;
+  background: #661a1a;
+  height: 2px;
+  border-width: 0;
+  margin: 0 16px;
+}
+
+.stepIndicator hr:last-of-type {
+  display: none;
+}
+
+.stepIndicator a {
+  text-decoration: none;
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  color: rgb(160, 181, 238);
+  box-shadow: 0px 3px 12px rgb(160, 181, 238);
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* cursor: pointer; */
+  cursor: default;
+  user-select: none;
+  position: relative;
+  font-weight: bold;
+  font-size: 22px;
+  transition: all 600ms ease-in-out;
+}
+
+.stepIndicator .activeLink {
+  background:#fe4aaa ;
+  color: #fff;
+}
+
+/* Button Container Styles */
+
+.btnContainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.btnContainer a {
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 10px;
+  color: #000;
+}
+h2{
+  text-align: center;
+}
+#personal-form{
+  margin-bottom: 284px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #f2f2f2;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #293241;
+  color: #fff;
+  padding: 20px;
+}
+
+.header-left h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+.header-left p {
+  margin: 0;
+  font-size: 18px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.company-info h3 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.company-info p {
+  margin: 0;
+  font-size: 18px;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.school-info h3 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.school-info p {
+  margin: 0;
+  font-size: 18px;
+}
+
+ul.skills {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+ul.skills li {
+  background-color: #293241;
+  color: #fff;
+  padding: 10px 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .header-right {
+    margin-top: 20px;
+  }
+  
+  .header-left h1 {
+    font-size: 28px;
+  }
+  
+  .header-left p {
+    font-size: 16px;
+  }
+  
+  main {
+    padding: 20px 10px;
+  }
+  
+  ul.skills {
+    justify-content: center;
+  }
+}
