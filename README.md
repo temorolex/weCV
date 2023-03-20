@@ -1,1 +1,1 @@
-# Resume-Generator-App
+# CV_BUILDER_APP
